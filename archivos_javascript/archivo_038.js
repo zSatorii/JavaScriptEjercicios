@@ -1,0 +1,1 @@
+alert("El resultado es: " + resultado);

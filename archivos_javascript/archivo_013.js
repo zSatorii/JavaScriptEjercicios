@@ -1,0 +1,11 @@
+Boolean(true); 
+Boolean(1);
+Boolean("hola");
+Boolean([]);
+Boolean({});
+Boolean(false); 
+Boolean(0); 
+Boolean("");
+Boolean(null);
+Boolean(undefined);
+Boolean(NaN);
