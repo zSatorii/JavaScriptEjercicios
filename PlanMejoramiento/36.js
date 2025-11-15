@@ -1,0 +1,12 @@
+const JohanTarea = new JohanGestion();
+JohanTarea.agregar("Estudiar JavaScript");
+JohanTarea.agregar("Hacer ejercicio");
+JohanTarea.agregar("Preparar presentación");
+JohanTarea.mostrar();
+JohanTarea.completar(0);
+JohanTarea.mostrar();
+const Castro = JohanTarea.obtenerEstadisticas();
+console.log("\n=== ESTADÍSTICAS ===");
+console.log(`Total: ${Castro.total}`);
+console.log(`Completadas: ${Castro.completadas}`);
+console.log(`Pendientes: ${Castro.pendientes}`);
