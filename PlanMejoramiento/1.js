@@ -5,3 +5,5 @@ let num1 = parseInt(Castro1);
 let num2 = parseInt(Castro2);
 let suma = num1 + num2;
 alert("La suma es: " + suma);
+
+//Es una suma, el alert no funciona porque requiere de un cliente, y en node se usa console.log

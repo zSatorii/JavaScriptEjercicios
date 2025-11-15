@@ -10,3 +10,5 @@ Castro(15);
 Castro(20);
 Castro(0); 
 Castro(-3);
+
+//se  hace una funcion que equivale a (numero)
